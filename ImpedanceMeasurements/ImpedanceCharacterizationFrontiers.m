@@ -6,7 +6,7 @@ close all
 
 %% Data and file upload
 
-addpath(genpath('/home/sronchi/ElectricalStimulation/ImpedanceMeasurements/')) % to add the current folder path
+addpath(genpath('')) % to add the current folder path
 load("dacTraceImp.mat") % dacTraceImp contains a voltage trace storing information about the electrical stimulation protocol 
 load("fittingWf.mat") % .mat file of one of the stimulation repetitions over 20. Used for the fitting example.
 load("WholeChannel.mat") % .mat file containing the whole stimulation and readout channel (it could be used for whole-channel plotting or further analysis)
